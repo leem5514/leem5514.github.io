@@ -1,12 +1,22 @@
+<!--
+	Ion by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
-  <link rel="stylesheet" href="{{ 'assets/styles.css' | relative_url }}">
 
-  {%- seo -%}
-  {%- feed_meta -%}
-
-  {%- include custom-head.html -%}
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+    <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/skel.min.js"></script>
+    <script src="{{ site.baseurl }}/js/skel-layers.min.js"></script>
+    <script src="{{ site.baseurl }}/js/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/skel.css" />
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/style-xlarge.css" />
+    </noscript>
 </head>
