@@ -1,8 +1,8 @@
 ---
+layout: page
 title: About
-permalink: /about/
 ---
 
-<p class="heavy-title"><a href="http://github.com/thinker3197/Ink">Ink</a> is a simple & minimalistic theme for <a href="http://jekyllrb.com">Jekyll</a>, a static site generator.</p>
+**Not Pure Poole** is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
 
->Designed and developed by [@thinker3197](https://github.com/thinker3197).
+For more information about Not Pure Poole, please browse the [README](https://github.com/vszhub/not-pure-poole) file.
