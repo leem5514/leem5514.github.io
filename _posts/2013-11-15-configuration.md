@@ -9,15 +9,15 @@ fullview: true
 In your config file change these settings
 
 {% highlight yaml %}
-title: dbyll
+title: 이명규<br>Development
 author:  
-  name: yourname  
-  email: youremail  
-  github: asd123  
-  twitter: asd123  
-  pinterest: asd123  
-  linkedin: asd123  
+  name: Lee myeong gyu  
+  email: leem5514@naver.com  
+  github: leem5514  
+  twitter: - 
+  pinterest: - 
+  linkedin: - 
   resume: asd123  
-  bio: Your stylish,  minimalist theme!  
-  email_md5: md5ofemail  
+  bio: 하나둘 채워나가는 개발기록  
+  email_md5: - 
 {% endhighlight %}
