@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/cotes2020/jekyll-theme-chirpy/issues"
   },
-  "homepage": "https://github.com/cotes2020/jekyll-theme-chirpy/",
+  "homepage": "https://leem5514.github.io",
   "scripts": {
     "build": "concurrently npm:build:*",
     "build:css": "purgecss -c purgecss.config.js",
@@ -19,11 +19,15 @@
     "watch:js": "rollup -c --bundleConfigAsCjs -w",
     "lint:scss": "stylelint _sass/**/*.scss",
     "lint:fix:scss": "npm run lint:scss -- --fix",
-    "test": "npm run lint:scss"
+    "test": "npm run lint:scss",
+
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "gh-pages": "^6.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.24.5",
